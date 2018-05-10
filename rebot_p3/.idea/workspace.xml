@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5cf046f-aa22-4852-b2c1-c68baa92416e" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/rebot_p3$django_socket.coverage" NAME="django_socket Coverage Results" MODIFIED="1525312925162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/django" />
+    <SUITE FILE_PATH="coverage/rebot_p3$get_proxy_ip.coverage" NAME="get_proxy_ip Coverage Results" MODIFIED="1523604910864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rebot" />
+    <SUITE FILE_PATH="coverage/rebot_p3$.coverage" NAME="百度搜索 Coverage Results" MODIFIED="1524902179938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/网络爬虫" />
+    <SUITE FILE_PATH="coverage/rebot_p3$rebot1.coverage" NAME="rebot1 Coverage Results" MODIFIED="1523587533154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rebot" />
+    <SUITE FILE_PATH="coverage/rebot_p3$udp_client.coverage" NAME="udp接受数据_client Coverage Results" MODIFIED="1524798980968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/网络" />
+    <SUITE FILE_PATH="coverage/rebot_p3$oracle.coverage" NAME="操作oracle数据 Coverage Results" MODIFIED="1524885811900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/oracle" />
+    <SUITE FILE_PATH="coverage/rebot_p3$print_bussiness_card.coverage" NAME="print_bussiness_card Coverage Results" MODIFIED="1524021308343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$__.coverage" NAME="生成器应用_多任务_协程 Coverage Results" MODIFIED="1524637572969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$functools.coverage" NAME="functools工具类 Coverage Results" MODIFIED="1524650511375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$hello.coverage" NAME="hello Coverage Results" MODIFIED="1523612229782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$slots.coverage" NAME="slots禁止动态添加属性 Coverage Results" MODIFIED="1524624307317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$youdao.coverage" NAME="youdao Coverage Results" MODIFIED="1523590288459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rebot" />
+    <SUITE FILE_PATH="coverage/rebot_p3$manage.coverage" NAME="manage Coverage Results" MODIFIED="1524887751273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../django_test" />
+    <SUITE FILE_PATH="coverage/rebot_p3$Queue.coverage" NAME="Queue Coverage Results" MODIFIED="1524727966896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$Test__product_show.coverage" NAME="Test: product_show Coverage Results" MODIFIED="1524887721091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/rebot_p3$threading_.coverage" NAME="threading_异步 Coverage Results" MODIFIED="1524735538169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$_.coverage" NAME="邮件发送_网页图片 Coverage Results" MODIFIED="1524823369088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/smtp" />
+    <SUITE FILE_PATH="coverage/rebot_p3$property_.coverage" NAME="property使用_装饰器 Coverage Results" MODIFIED="1524555262346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$Queue_4_pool.coverage" NAME="Queue_4_pool Coverage Results" MODIFIED="1524729627774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$socket_1.coverage" NAME="socket_1 Coverage Results" MODIFIED="1524737524148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/网络" />
+    <SUITE FILE_PATH="coverage/rebot_p3$user_diff_check.coverage" NAME="user_diff_check Coverage Results" MODIFIED="1525419927320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aspire_sync_tools_patch" />
+    <SUITE FILE_PATH="coverage/rebot_p3$test_coding.coverage" NAME="test_coding Coverage Results" MODIFIED="1523612265818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$sonarapi.coverage" NAME="通过sonarapi进行鉴权 Coverage Results" MODIFIED="1525331492892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sonarqube" />
+    <SUITE FILE_PATH="coverage/rebot_p3$property.coverage" NAME="property的使用 Coverage Results" MODIFIED="1524554692306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$2.coverage" NAME="装饰器2 Coverage Results" MODIFIED="1524620789806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$udp.coverage" NAME="udp发送数据 Coverage Results" MODIFIED="1524798754807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/网络" />
+    <SUITE FILE_PATH="coverage/rebot_p3$download_imgs.coverage" NAME="download_imgs Coverage Results" MODIFIED="1523600631477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rebot" />
+    <SUITE FILE_PATH="coverage/rebot_p3$threading_ThreadLocl.coverage" NAME="threading_ThreadLocl Coverage Results" MODIFIED="1524735069892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$tftp.coverage" NAME="tftp模拟 Coverage Results" MODIFIED="1524800090166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/网络" />
+    <SUITE FILE_PATH="coverage/rebot_p3$threading_2.coverage" NAME="threading_2 Coverage Results" MODIFIED="1524733349123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$proxy_1.coverage" NAME="proxy_1 Coverage Results" MODIFIED="1523600621511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rebot" />
+    <SUITE FILE_PATH="coverage/rebot_p3$django_00.coverage" NAME="django_00 Coverage Results" MODIFIED="1524887081831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/django" />
+    <SUITE FILE_PATH="coverage/rebot_p3$mysql.coverage" NAME="连接mysql Coverage Results" MODIFIED="1524819469356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/mysql操作" />
+    <SUITE FILE_PATH="coverage/rebot_p3$python3.coverage" NAME="python3获取字节的方法 Coverage Results" MODIFIED="1525313191382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/django" />
+    <SUITE FILE_PATH="coverage/rebot_p3$regular_expression.coverage" NAME="regular_expression Coverage Results" MODIFIED="1523611546647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rebot" />
+    <SUITE FILE_PATH="coverage/rebot_p3$str_in_memory.coverage" NAME="str_in_memory Coverage Results" MODIFIED="1523612586286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$_Timer_.coverage" NAME="定时器_Timer_非阻塞 Coverage Results" MODIFIED="1524879277752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/定时器" />
+    <SUITE FILE_PATH="coverage/rebot_p3$Queue_1.coverage" NAME="Queue_1 Coverage Results" MODIFIED="1524728714740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$_APScheduler.coverage" NAME="定时器_APScheduler Coverage Results" MODIFIED="1524883765969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/定时器" />
+    <SUITE FILE_PATH="coverage/rebot_p3$pythonsqlserver.coverage" NAME="python操作sqlserver Coverage Results" MODIFIED="1525399207169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/mssql" />
+    <SUITE FILE_PATH="coverage/rebot_p3$1.coverage" NAME="爬虫1 Coverage Results" MODIFIED="1524901293968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/网络爬虫" />
+    <SUITE FILE_PATH="coverage/rebot_p3$_multiprocess.coverage" NAME="多任务_multiprocess Coverage Results" MODIFIED="1524721334770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$some_bif_use.coverage" NAME="some_bif_use Coverage Results" MODIFIED="1524034721877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$threading_1.coverage" NAME="threading_1 Coverage Results" MODIFIED="1524731489126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$threading_FiFO_Queue.coverage" NAME="threading_FiFO_Queue Coverage Results" MODIFIED="1524734339343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0" />
+    <SUITE FILE_PATH="coverage/rebot_p3$ip.coverage" NAME="ip地址介绍 Coverage Results" MODIFIED="1524736364544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/网络" />
+    <SUITE FILE_PATH="coverage/rebot_p3$get_file_list.coverage" NAME="get_file_list Coverage Results" MODIFIED="1523857767885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ebee" />
+    <SUITE FILE_PATH="coverage/rebot_p3$rebot2.coverage" NAME="rebot2 Coverage Results" MODIFIED="1523588688273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rebot" />
+    <SUITE FILE_PATH="coverage/rebot_p3$udp_server.coverage" NAME="udp发送数据_server Coverage Results" MODIFIED="1524798990981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/网络" />
+    <SUITE FILE_PATH="coverage/rebot_p3$excel_merge.coverage" NAME="excel_merge Coverage Results" MODIFIED="1524020948551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ebee" />
+    <SUITE FILE_PATH="coverage/rebot_p3$_html.coverage" NAME="邮件发送_html版邮件 Coverage Results" MODIFIED="1524821620430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn0/smtp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="django总结" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learn0/django/django总结">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>recv</find>
+      <find>connection(</find>
+      <find>connect</find>
+      <find>rowcount</find>
+      <find>day_of_week</find>
+      <find>databas</find>
+      <find>hex</find>
+      <find>keys</find>
+      <find>get_metrics</find>
+      <find>row_values</find>
+      <find>nrows</find>
+      <find>get_sheet</find>
+      <find>writ</find>
+      <find>005033</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/learn0/类当做装饰器.py" />
+        <option value="$PROJECT_DIR$/learn0/元类.py" />
+        <option value="$PROJECT_DIR$/learn0/垃圾回收机制.py" />
+        <option value="$PROJECT_DIR$/learn0/内建函数.py" />
+        <option value="$PROJECT_DIR$/learn0/集合.py" />
+        <option value="$PROJECT_DIR$/learn0/functools工具类.py" />
+        <option value="$PROJECT_DIR$/learn0/常用的模块.py" />
+        <option value="$PROJECT_DIR$/learn0/多任务.py" />
+        <option value="$PROJECT_DIR$/learn0/多任务_fork.py" />
+        <option value="$PROJECT_DIR$/learn0/多任务_multiprocess.py" />
+        <option value="$PROJECT_DIR$/learn0/Queue.py" />
+        <option value="$PROJECT_DIR$/learn0/Queue_1.py" />
+        <option value="$PROJECT_DIR$/learn0/多任务_进程池.py" />
+        <option value="$PROJECT_DIR$/learn0/Queue_4_pool.py" />
+        <option value="$PROJECT_DIR$/learn0/threading_1.py" />
+        <option value="$PROJECT_DIR$/learn0/threading_2.py" />
+        <option value="$PROJECT_DIR$/learn0/threading_FiFO_Queue.py" />
+        <option value="$PROJECT_DIR$/learn0/threading_ThreadLocl.py" />
+        <option value="$PROJECT_DIR$/learn0/threading_异步.py" />
+        <option value="$PROJECT_DIR$/learn0/网络/ip地址介绍.py" />
+        <option value="$PROJECT_DIR$/learn0/网络/socket_1.py" />
+        <option value="$PROJECT_DIR$/learn0/网络/静态服务器.py" />
+        <option value="$PROJECT_DIR$/learn0/网络/静态服务器２.py" />
+        <option value="$PROJECT_DIR$/learn0/网络/udp发送数据.py" />
+        <option value="$PROJECT_DIR$/learn0/网络/udp发送数据_server.py" />
+        <option value="$PROJECT_DIR$/learn0/网络/udp接受数据_client.py" />
+        <option value="$PROJECT_DIR$/learn0/网络/tftp模拟.py" />
+        <option value="$PROJECT_DIR$/learn0/mysql操作/连接mysql.py" />
+        <option value="$PROJECT_DIR$/learn0/smtp/邮件发送.py" />
+        <option value="$PROJECT_DIR$/learn0/smtp/邮件发送_附件.py" />
+        <option value="$PROJECT_DIR$/learn0/smtp/邮件发送_html版邮件.py" />
+        <option value="$PROJECT_DIR$/learn0/smtp/邮件发送_网页图片.py" />
+        <option value="$PROJECT_DIR$/learn0/定时器/定时器.py" />
+        <option value="$PROJECT_DIR$/learn0/定时器/定时器_Timer_非阻塞.py" />
+        <option value="$PROJECT_DIR$/learn0/定时器/定时器_APScheduler.py" />
+        <option value="$PROJECT_DIR$/learn0/oracle/操作oracle数据.py" />
+        <option value="$PROJECT_DIR$/../django_test/django_test/settings.py" />
+        <option value="$PROJECT_DIR$/../django_test/django_test/__init__.py" />
+        <option value="$PROJECT_DIR$/learn0/网络爬虫/爬虫1.py" />
+        <option value="$PROJECT_DIR$/learn0/网络爬虫/转码.py" />
+        <option value="$PROJECT_DIR$/learn0/网络爬虫/百度搜索.py" />
+        <option value="$PROJECT_DIR$/learn0/django/django_socket.py" />
+        <option value="$PROJECT_DIR$/learn0/django/django_00.py" />
+        <option value="$PROJECT_DIR$/learn0/django/python3获取字节的方法.py" />
+        <option value="$PROJECT_DIR$/sonarqube/通过sonarapi进行鉴权.py" />
+        <option value="$PROJECT_DIR$/learn0/django/django目录说明" />
+        <option value="$PROJECT_DIR$/learn0/mssql/python操作sqlserver.py" />
+        <option value="$PROJECT_DIR$/aspire_sync_tools_patch/test_file.py" />
+        <option value="$PROJECT_DIR$/aspire_sync_tools_patch/a.sql" />
+        <option value="$PROJECT_DIR$/aspire_sync_tools_patch/user_diff_check.py" />
+        <option value="$PROJECT_DIR$/learn0/django/django总结" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="523" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rebot_p3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rebot_p3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rebot_p3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rebot_p3" type="462c0819:PsiDirectoryNode" />
+              <item name="learn0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rebot_p3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rebot_p3" type="462c0819:PsiDirectoryNode" />
+              <item name="learn0" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django00" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\stock\rebot_p3\linux00" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\stock\rebot_p3\learn0\smtp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.user_diff_check">
+    <configuration name="django_socket" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn0/django" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rebot_p3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\stock\rebot_p3\learn0\django\简单的http服务.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="python3获取字节的方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn0/django" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rebot_p3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn0/django/python3获取字节的方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="python操作sqlserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn0/mssql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rebot_p3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn0/mssql/python操作sqlserver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="通过sonarapi进行鉴权" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sonarqube" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rebot_p3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sonarqube/通过sonarapi进行鉴权.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="user_diff_check" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aspire_sync_tools_patch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rebot_p3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aspire_sync_tools_patch/user_diff_check.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.django_socket" />
+      <item index="1" class="java.lang.String" itemvalue="Python.python3获取字节的方法" />
+      <item index="2" class="java.lang.String" itemvalue="Python.通过sonarapi进行鉴权" />
+      <item index="3" class="java.lang.String" itemvalue="Python.python操作sqlserver" />
+      <item index="4" class="java.lang.String" itemvalue="Python.user_diff_check" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.user_diff_check" />
+        <item index="1" class="java.lang.String" itemvalue="Python.python操作sqlserver" />
+        <item index="2" class="java.lang.String" itemvalue="Python.通过sonarapi进行鉴权" />
+        <item index="3" class="java.lang.String" itemvalue="Python.python3获取字节的方法" />
+        <item index="4" class="java.lang.String" itemvalue="Python.django_socket" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5cf046f-aa22-4852-b2c1-c68baa92416e" name="Default" comment="" />
+      <created>1523585426467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523585426467</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__product_show - 2018.04.28 at 11h 55m 22s.xml">
+      <configuration name="Test: product_show" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="523" y="0" width="683" height="728" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37631184" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70866144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48503938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70866144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37631184" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48503938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="19" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/soft/python3.4/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="174" column="41" lean-forward="false" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/smtplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="800" column="23" lean-forward="false" selection-start-line="800" selection-start-column="15" selection-end-line="800" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/email/header.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-373">
+          <caret line="180" column="45" lean-forward="false" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/email/mime/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/smtp/邮件发送_html版邮件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/email/mime/multipart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/smtp/邮件发送_附件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/smtp/邮件发送_网页图片.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/sched.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="894">
+          <caret line="1174" column="52" lean-forward="true" selection-start-line="1174" selection-start-column="52" selection-end-line="1174" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/定时器/定时器_Timer_非阻塞.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/定时器/定时器_sched_延迟_阻塞.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/site-packages/apscheduler/schedulers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="440" column="44" lean-forward="true" selection-start-line="440" selection-start-column="44" selection-end-line="440" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/site-packages/apscheduler/triggers/interval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/定时器/定时器_APScheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/oracle/操作oracle数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_test/django_test/urls.py" />
+    <entry file="file://$PROJECT_DIR$/../django_test/django_test/settings.py" />
+    <entry file="file://$PROJECT_DIR$/../django_test/django_test/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../django_test/manage.py" />
+    <entry file="file://D:/soft/python3.4/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="138" column="58" lean-forward="false" selection-start-line="138" selection-start-column="58" selection-end-line="138" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/网络爬虫/转码.py" />
+    <entry file="file://$PROJECT_DIR$/learn0/网络爬虫/爬虫1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/urllib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="734" column="13" lean-forward="false" selection-start-line="734" selection-start-column="4" selection-end-line="734" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/网络爬虫/百度搜索.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/hashlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/django/简单的http服务.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/生成器应用_多任务_协程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/生成器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-543">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="105" column="15" lean-forward="false" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonarqube/通过sonarapi进行鉴权.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/site-packages/sonarqube_api/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1675">
+          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/smtp/邮件发送.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-1678158626/pymssql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-1678158626/_mssql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/site-packages/xlrd/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1381">
+          <caret line="445" column="8" lean-forward="false" selection-start-line="445" selection-start-column="8" selection-end-line="445" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/python3.4/Lib/site-packages/xlrd/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="331" column="18" lean-forward="false" selection-start-line="331" selection-start-column="13" selection-end-line="331" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebee/excel_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-1678158626/nt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="377" column="4" lean-forward="false" selection-start-line="377" selection-start-column="4" selection-end-line="377" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspire_sync_tools_patch/test_file.py" />
+    <entry file="file://$PROJECT_DIR$/aspire_sync_tools_patch/a.sql" />
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-1678158626/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="4846" column="37" lean-forward="false" selection-start-line="4846" selection-start-column="19" selection-end-line="4846" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aspire_sync_tools_patch/t_user_project_ratio.sql" />
+    <entry file="file://$PROJECT_DIR$/aspire_sync_tools_patch/t_smt_user.sql" />
+    <entry file="file://$PROJECT_DIR$/aspire_sync_tools_patch/user_diff_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/mssql/python操作sqlserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/mysql操作/连接mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/django/python3获取字节的方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/django/django目录说明">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn0/django/django总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

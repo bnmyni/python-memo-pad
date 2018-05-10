@@ -1,0 +1,75 @@
+基本面数据 base
+    股票列表 get_stock_basics
+    业绩报告 get_report_data
+    盈利能力 get_profit_data
+    运营能力 get_operation_data
+    成长能力 get_growth_data
+    偿债能力 get_debtpaying_data
+    现金流量 get_cashflow_data
+交易数据  transaction
+    历史行情 get_hist_data
+    复权数据 get_stock_basics
+    实时行情 get_today_all
+    历史分笔 get_tick_data
+    实时分笔 get_realtime_quotes
+    当日历史分笔 get_today_ticks
+    大盘指数行情 get_index
+    大单交易数据 get_sina_dd
+影院信息 box-office
+    实时票房  realtime_boxoffice
+    每日票房 day_boxoffice
+    月度票房 month_boxoffice
+    影院日度票房 day_cinema
+投资参考 consult
+    分配预案
+    业绩报告
+    限售股解禁
+    基金持股
+    新股数据
+    融资融券（沪市）
+    融资融券（深市）
+股票分类 shares
+    行业分类
+    概念分类
+    地域分类
+    中小板分类
+    创业板分类
+    风险警示板分类
+    沪深300成份及权重
+    上证50成分股
+    中证500成分股
+    终止上市股票列表
+    暂停上市股票列表
+宏观经济 macro-economy
+    存款利率
+    贷款利率
+    存款准备金率
+    货币供应量
+    货币供应量（年底余额）
+    国内生产总值（季度）
+    国内生产总值（年度）
+    三大需求对GDP贡献
+    三大需求对GDP拉动
+    三大产业贡献率
+    居民消费价格指数
+    工业品出厂价格指数
+新闻事件 news
+    即时新闻 get_latest_news
+    信息地雷 get_notices
+    新浪股吧 guba_sina
+龙虎榜 top
+    每日龙虎板列表
+    个股上榜统计
+    营业部上榜统计
+    机构席位追踪
+    机构成交明细
+银行间同业拆放利率 interbank-rate
+    shibor拆放利率
+    银行报价数据
+    shibor均值数据
+    贷款基础利率(LPR)
+    LPR均值数据
+数据存储
+    csv 文件
+    mysql数据库
+    excel文件

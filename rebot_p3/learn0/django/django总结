@@ -1,0 +1,85 @@
+1.django 创建项目
+	django-admin startproject 工程名
+
+2.django创建app
+	python manage.py startapp app名称
+
+3.静态文件
+	project.setting.py
+
+	STATICFILE_DIRS = (
+		os.path.join(BASE_DIR, "static"),
+	)
+
+4.模板路径
+    DIRS -->[os.path.join(BASE_DIR, "template"),]
+
+5.setting中
+    middlerware
+    注释 csrf
+
+6.路由规则
+    url.py
+
+    "login" -- > 函数名
+
+7.定义视图函数
+　   app 下面的view.py
+
+     def func(request):
+        request.method GET/POST
+
+        获取值　
+        request.GET.get('', NONE)
+        request.POST.get('', NONE)
+
+
+        返回
+        return HttpResponse("字符串")
+        return render(request, "html模板")
+        return redirect("html模板")
+
+８.模板渲染
+    def func(request):
+        return render(request, "html模板", {"current_user": "alex"})
+
+        index.html
+
+        <body>
+            <div>{{current_user}}</div>
+
+            <ul>
+                <li>
+                    {%  for user in user_list %}
+                           <li> {{user}} </li>
+                    {% endfor %}
+
+                    ##获取ｌｉｓｔ第一个值
+                    <a> {{user_list.0}}</a>
+                     ##获取dict字典里面的值
+                     <a> {{user_list.k1}}</a>
+                </li>
+                ## if 使用
+                {% if age %}
+                    {% if age %}
+                        <h3>{{age}}<h3>
+                    {% else %}
+                         <h1>{{age}}<h1>
+                    {% endif %}
+                {% else %}
+                    <h12> {{age}} <h2>
+                {% endif %}
+            </ul>
+        </body>
+
+
+
+django orm 使用
+    app
+        migrations 数据表结构修改
+        admin django 提供的后台管理
+        apps 配置当前的app
+        models orm，同命令创建数据库结构
+        tests  用来测试的
+        views 只写app相关的业务代码
+

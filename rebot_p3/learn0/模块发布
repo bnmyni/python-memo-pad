@@ -1,0 +1,23 @@
+1.模块目录结构如下
+├── setup.py
+├── suba
+│ ├── aa.py
+│ ├── bb.py
+│ └── __init__.py
+└── subb
+├── cc.py
+├── dd.py
+└── __init__.py
+
+２．setup.py编写
+from distutils.core import setup
+setup(name="baidu", version="1.0", description="模块描述")
+
+3.模块构建
+python setup.py build
+
+4.生成发布压缩包
+python setup.py sdist
+
+5.模块安装使用
+python setup.py install

@@ -1,0 +1,13 @@
+
+django-app
+    --django-app  对整个程序进行配置
+        -- init
+        -- settings 配置文件
+        -- url    url对应关系
+        --wsgi   遵循ｗｓｇｉ规范，uwsgi + nginx 线上系统使用
+    -- manage.py  管理django 程序
+            python manage.py
+            python manage.py startapp
+            python manage.py makemigrations  ## orm
+            python manage.py migrate  ## orm
+
