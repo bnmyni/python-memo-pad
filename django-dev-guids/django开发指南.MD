@@ -167,7 +167,7 @@
 
 # urls 中将一个url路由到一个类
     一般来说一个url是路由到一个指定的方法上面，如果需要将一个url路由到一个类上面则需要继承django.views.View
-    
+    from django.views import View
     class Home(View):
         def dispatch(self, request, *args, **kwargs):
             print('before filter...')
@@ -185,32 +185,32 @@
 
 # 使用Form进行表单的验证
     django.forms提供了一个表单验证功能,django.forms.fields用于定义字段的类型，django.forms.widgets用于定义该字段在html中表现形式
-```
-from django import forms
-from django.shortcuts import render, HttpResponse
-from django.forms import widgets
-from django.forms import fields
-class UserFrom(forms.Form):
-    user = fields.CharField(error_messages='用户名不能为空', widgets = widgets.CheckboxInput(attrs={'css', 'c1'}))
-    pwd = fields.CharField(max_length=20,
-                          min_length=8,
-                          error_messages={"max_length": "长度不能大于20", "min_length": "密码长度不能小于6"},
-                          widgets = widgets.PasswordInput(attrs={'css': "c2"}))
-    email = fields.EmailField()
-
-def login(request):
-    if request.method == 'GET':
-        return HttpResponse('OK GET...')
-    elif request.method == 'POST':
-        obj = UserFrom()
-        flag = obj.is_valid()
-        if flag:
-            # 这里就可以直接保存到数据库了 models.UserInfo.create(**obj.cleaned_data)
-            ## {{obj.user}} 可以在页面上生成html  {{obj.user.}} {{obj.erros.user.0}}
-            ## {{obj.as_p}} {{obj.as_ul}} {{obj.as_table}} 可以生成<p> <ul> 或者<table>
-            return HttpResponse(obj.cleaned_data)
-        else:
-            return HttpResponse(obj.errors)```
+    
+    from django import forms
+    from django.shortcuts import render, HttpResponse
+    from django.forms import widgets
+    from django.forms import fields
+    class UserFrom(forms.Form):
+        user = fields.CharField(error_messages='用户名不能为空', widgets = widgets.CheckboxInput(attrs={'css', 'c1'}))
+        pwd = fields.CharField(max_length=20,
+                              min_length=8,
+                              error_messages={"max_length": "长度不能大于20", "min_length": "密码长度不能小于6"},
+                              widgets = widgets.PasswordInput(attrs={'css': "c2"}))
+        email = fields.EmailField()
+    
+    def login(request):
+        if request.method == 'GET':
+            return HttpResponse('OK GET...')
+        elif request.method == 'POST':
+            obj = UserFrom()
+            flag = obj.is_valid()
+            if flag:
+                # 这里就可以直接保存到数据库了 models.UserInfo.create(**obj.cleaned_data)
+                ## {{obj.user}} 可以在页面上生成html  {{obj.user.}} {{obj.erros.user.0}}
+                ## {{obj.as_p}} {{obj.as_ul}} {{obj.as_table}} 可以生成<p> <ul> 或者<table>
+                return HttpResponse(obj.cleaned_data)
+            else:
+                return HttpResponse(obj.errors)
             
 # csrf 防护
     django 默认是开启了csrf防护的，在settings配置了'django.middleware.csrf.CsrfViewMiddleware'中间件，如果不需要可以注释掉
