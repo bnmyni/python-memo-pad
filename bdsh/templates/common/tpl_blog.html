@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+{% include 'common/meta.html' %}
+<title> {% block title %} {% endblock %} </title>
+<link href="{% static 'portal/blog/style.css' %}" rel="stylesheet" type="text/css" media="screen" />
+{% block page-css %} {% endblock %}
+</head>
+<body>
+<div id="wrapper">
+    {% include 'portal/blog/menu.html' %}
+    {% block page-logo %}{% endblock %}
+    <!-- end #menu
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">这里展示个人logo或者图片</a></h1>
+		</div>
+		<div id="search">
+			<form method="get" action="">
+				<fieldset>
+					<input type="text" name="s" id="search-text" size="15" value="输入关键字查找" />
+					<input type="submit" id="search-submit" value="GO" />
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	-->
+	<!-- end #header -->
+	{% block page-content %}{% endblock %}
+	<!-- end #page -->
+</div>
+{% include 'portal/blog/footer.html' %}
+</body>
+</html>

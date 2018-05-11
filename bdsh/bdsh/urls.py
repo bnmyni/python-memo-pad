@@ -15,15 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+# from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+# from django.contrib import staticfiles
 
 urlpatterns = [
     # path('ad/', include('ad.urls')),
-    # path('blog/', include('blog.urls')),
+    path('bdsh/blog/', include('blog.urls')),
     # path('car/', include('car.urls')),
-    # path('common/', include('common.urls')),
+    path('bdsh/common/', include('common.urls')),
     # path('firms/', include('firms.urls')),
-    path('user/', include('user.urls')),
-    path('admin/', admin.site.urls)
+    path('bdsh/user/', include('user.urls')),
+    path('bdsh/admin/', admin.site.urls)
     # path('add/', views.add),
     # path(r'detail-<int:year>-<int:month>-<int:day>.html', views.detail),
 ]
+# urlpatterns += staticfiles_urlpatterns()
