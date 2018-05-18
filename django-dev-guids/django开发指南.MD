@@ -313,3 +313,31 @@
 
 # XSSFilter 防护
     django提供了XSSFilter对提交的内容进行过滤
+
+# 静态文件配置 static 
+    1.settings  文件配置
+        a.配置 INSTALLED_APPS
+            在INSTALLED_APPS中加入'django.contrib.staticfiles',实际上默认已经加上了，确认下即可
+        b.配置STATICFILES_DIRS
+            STATIC_URL = '/static/'
+            STATICFILES_DIRS = [
+                os.path.join(BASE_DIR, "static"),
+            ]
+    2.文件夹布局
+        在project创建static目录，该目录应该与app，templates是同级的，即如下图
+            -- you-project-name
+                -- you-project-name
+                -- you-app-name
+                -- static
+                -- templates
+    3.页面使用
+        a.在页面的头部引入static  {% load static %}
+        b.通过static引入资源，目录以static作为根目录,如
+            <img src="{% static 'portal/blog/images/img05.jpg' %}" width="540" height="250" alt="" />
+        
+
+# 使用模板后静态文件使用
+    如果某个页面需要引入模板，该页面要使用静态文件，需要在extends模板之后，接着写{% load static %} 不能写在extends 之前
+    {% extends 'common/tpl_blog.html' %}
+    {% load static %}
+    
