@@ -31,6 +31,26 @@ def read_table_data(sql):
     finally:
         rdb.close()
 
+		
+def update_ops_sonar_data():
+    wdb = get_write_conn()
+    wcursor = wdb.cursor()
+    sql = """
+        create table ops_sonar_data as select a.name,
+        (select sum(IFNULL(t.variation, 0)) 
+            from sonarqube.live_measures t
+            where metric_id=3 and project_uuid = a.project_uuid ) code_line,
+        (select b.`value` from sonarqube.live_measures b where b.metric_id = 37 and b.project_uuid = a.project_uuid and b.component_uuid = a.project_uuid) ut,
+        (select count(*) from sonarqube.issues f
+        where f.project_uuid=a.project_uuid and f.issue_type in (2,3)) issues,
+        (select _num from zt_build x where x._num like CONCAT('%', a.name, '%') ORDER BY x._start_date desc limit 1) _num
+        from sonarqube.projects a where scope = 'PRJ'
+    """
+    wcursor.execute("drop table if EXISTS ops_sonar_data")
+    wcursor.execute(sql)
+    wdb.commit()
+    wdb.close()
+	
 
 def clear_and_bak_table(table_name):
     wdb = get_write_conn()
@@ -77,6 +97,7 @@ if __name__ == "__main__":
     while True:
         cur_time = time.strftime("%H", time.localtime())
         if cur_time == "01" or cur_time == "03":
+		    update_ops_sonar_data()
             update_data("zt_bugs", "_id,_type,_sum", 3)
             update_data("zt_build", "_id,_num,_start_date,_end_date,_released_date,_sub_id", 6)
             update_data("zt_man_haur", "_story_id,_quantity", 2)
